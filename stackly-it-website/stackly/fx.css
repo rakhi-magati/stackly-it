@@ -20,7 +20,7 @@
     height: 420px;
     margin: -210px 0 0 -210px;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(114, 230, 244, .28), transparent 65%);
+    background: radial-gradient(circle, rgba(125, 240, 176, .28), transparent 65%);
     pointer-events: none;
     z-index: 0;
     will-change: transform;
@@ -221,7 +221,7 @@ footer {
     display: grid;
     gap: 8px;
     font-size: 13px;
-    color: #b9d5ff;
+    color: #9fd9bd;
     min-height: 62px
 }
 
@@ -233,7 +233,7 @@ footer {
 }
 
 .feed time {
-    color: #92b0dd;
+    color: #7fb89d;
     font-variant-numeric: tabular-nums;
     font-size: 12px;
     min-width: 56px
@@ -814,7 +814,7 @@ footer {
     object-fit: cover;
     border-radius: 32px;
     filter: saturate(.85) contrast(1.03);
-    box-shadow: 0 35px 70px -36px rgba(17, 27, 69, .7)
+    box-shadow: 0 35px 70px -36px rgba(12, 42, 38, .7)
 }
 
 .team-photo::after {
@@ -822,7 +822,7 @@ footer {
     position: absolute;
     inset: 0;
     border-radius: 32px;
-    background: linear-gradient(135deg, rgba(17, 27, 69, .2), transparent 48%);
+    background: linear-gradient(135deg, rgba(12, 42, 38, .2), transparent 48%);
     pointer-events: none
 }
 
@@ -846,7 +846,7 @@ footer {
     height: 14px;
     border-radius: 50%;
     background: var(--mint-d);
-    box-shadow: 0 0 0 7px rgba(114, 230, 244, .32)
+    box-shadow: 0 0 0 7px rgba(125, 240, 176, .32)
 }
 
 .photo-badge b,
@@ -935,7 +935,7 @@ footer {
 
 .value-grid article:hover {
     transform: translateY(-8px);
-    background: rgba(114, 230, 244, .1)
+    background: rgba(125, 240, 176, .1)
 }
 
 .value-grid span {
@@ -949,7 +949,7 @@ footer {
 }
 
 .value-grid p {
-    color: #c4d4f5;
+    color: #b7d8c7;
     margin: 0
 }
 
@@ -986,7 +986,7 @@ footer {
     bottom: 24px;
     padding: 22px;
     border-radius: 18px;
-    background: rgba(17, 27, 69, .92);
+    background: rgba(12, 42, 38, .92);
     color: #fff;
     backdrop-filter: blur(12px)
 }
@@ -1053,7 +1053,7 @@ footer {
     position: absolute;
     width: 250px;
     height: 250px;
-    border: 36px solid rgba(114, 230, 244, .4);
+    border: 36px solid rgba(125, 240, 176, .4);
     border-radius: 50%;
     right: 5%;
     bottom: -120px;
